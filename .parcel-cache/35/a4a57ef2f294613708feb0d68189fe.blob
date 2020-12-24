@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+:root {
+  --color-main-accent: background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                                      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                                      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-light-grey: #DFDFDF;
+  --color-error: #F67E7E;
+  --font-primary: "DM Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-midnight-green);
+  color: var(--color-white);
+  min-height: 100vh;
+  min-width: 32rem;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 95%;
+  min-width: 32rem;
+  width: 110rem;
+}
+@media only screen and (max-width: 640px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=index.b19049fc.css.map */
