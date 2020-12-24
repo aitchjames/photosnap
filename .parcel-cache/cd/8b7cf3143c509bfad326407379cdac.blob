@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 :root {
-  --color-main-accent: linear-gradient(25deg,#ffc694 0,#bc7198 40%,#5776ff 70%);
+  --color-main-accent: linear-gradient(26.57deg, #FFC593 0.42%, #BC7198 43.46%, #5A77FF 83.33%);
   --color-black: #000000;
   --color-white: #ffffff;
   --color-light-grey: #DFDFDF;

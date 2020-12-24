@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--color-white); 
+
+    & .container {        
+        height: 7.2rem;   
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+

@@ -1,0 +1,43 @@
+.nav {
+    display: flex;   
+    align-items: center;
+
+    &-item {
+        color: var(--color-black);
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 3rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: var(--color-light-grey);
+        }
+    }
+
+    & > *:last-child {
+        margin-right: 0;
+    }
+}
+
+.nav-menu-toggle {
+    display: none;
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nav-menu-closed {
+    background-image: url('./../images/shared/mobile/menu.svg');
+}
+
+.nav-menu-open {
+    background-image: url('./../images/shared/mobile/close.svg');
+}
